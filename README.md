@@ -1,0 +1,1 @@
+The purpose of this repository is to act as both a local and remote archive of all the software-related content I will be writing.
