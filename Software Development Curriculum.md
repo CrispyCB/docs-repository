@@ -22,22 +22,28 @@ Basic Software Development
 11. Work through Free Code Camp's Front End Libraries Certification (300 hours)
 12. Work through Introduction to Node.js (Microsoft(edX)(20 hours)
 13. Work through Free Code Camp's APIs and Microservices Certification (300 hours)
-14. Work through Learn SQL (Codecademy)(10 hours)
-15.	Work through Free Code Camp's Data Visualization Certification w/ D3.js (300 hours)
+14. Work through M001: MongoDB Basics (3 wks)
+15. Work through Learn SQL (Codecademy)(10 hours)
+16.	Work through Free Code Camp's Data Visualization Certification w/ D3.js (300 hours)
     * Supplement with Data Visualization With JavaScript
     * Supplement with Interactive Data Visualization for the Web
-16. Work through Software Testing Fundamentals (UMUC/edX)(80 hours)
-17.	Work through Software Testing Management (UMUC/edX)(80 hours)
-18.	Work through Continuous Integration and Continuous Deployment (Microsoft/edX)(16 hours)
-19.	Work through Introduction to Python: Fundamentals (Microsft/edX)(20 hours)
+17. Work through Software Testing Fundamentals (UMUC/edX)(80 hours)
+18.	Work through Software Testing Management (UMUC/edX)(80 hours)
+19.	Work through Continuous Integration and Continuous Deployment (Microsoft/edX)(16 hours)
+20.	Work through Introduction to Python: Fundamentals (Microsft/edX)(20 hours)
     * Supplement with Fluent Python
+-----------------------
+Basic Systems Administration
+-----------------------
+
+
 -----------------------
 Advanced Software Development
 -----------------------
+
 1. Work through Learn You Some Erlang For Great Good
 2. Work through Learn You A Haskell For Great Good
 3. Refresh Ruby using The Rails Tutorial
     * Supplement with RubyMonk
 4. Work through Agile Development Using Ruby on Rails - The Basics (Berkeley/edX)(60 hours)
 5. Work through Agile Development Using Ruby on Rails - Advanced (Berkeley/edX)(250 hours)
-6. Work through M001: MongoDB Basics (3 wks)
