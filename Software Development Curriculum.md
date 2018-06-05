@@ -21,14 +21,15 @@ Basic Software Development
     * Supplement with Learn Enough JavaScript To Be Dangerous
 11. Work through Free Code Camp's Front End Libraries Certification (300 hours)
 12. Work through Introduction to Node.js (Microsoft(edX)(20 hours)
-13. Work through Learn SQL (Codecademy)(10 hours)
-14.	Work through Free Code Camp's Data Visualization Certification w/ D3.js (300 hours)
+13. Work through Free Code Camp's APIs and Microservices Certification (300 hours)
+14. Work through Learn SQL (Codecademy)(10 hours)
+15.	Work through Free Code Camp's Data Visualization Certification w/ D3.js (300 hours)
     * Supplement with Data Visualization With JavaScript
     * Supplement with Interactive Data Visualization for the Web
-15. Work through Software Testing Fundamentals (UMUC/edX)(80 hours)
-16.	Work through Software Testing Management (UMUC/edX)(80 hours)
-17.	Work through Continuous Integration and Continuous Deployment (Microsoft/edX)(16 hours)
-18.	Work through Introduction to Python: Fundamentals (Microsft/edX)(20 hours)
+16. Work through Software Testing Fundamentals (UMUC/edX)(80 hours)
+17.	Work through Software Testing Management (UMUC/edX)(80 hours)
+18.	Work through Continuous Integration and Continuous Deployment (Microsoft/edX)(16 hours)
+19.	Work through Introduction to Python: Fundamentals (Microsft/edX)(20 hours)
     * Supplement with Fluent Python
 -----------------------
 Advanced Software Development
