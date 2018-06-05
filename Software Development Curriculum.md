@@ -52,3 +52,4 @@ Advanced Systems Administration
 ------------------------
 
 1. Work through Introduction to Cloud Infrastructure Technologies (The Linux Foundation/edX)(30 hours)
+2. Work through Fundamentals of Containers, Kubernetes, and Red Hat OpenShift (Red Hat/edX)(21 hours)
