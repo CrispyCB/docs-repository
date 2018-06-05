@@ -3,6 +3,7 @@ Software Development Curriculum
 -----------------------
 Basic Software Development
 -----------------------
+
 1.	Finish The Odin Project (400 hours)
 2.  “Learn API Doc” by Tom Johnson (Rolling)
 3.	Work through Introduction to Computer Science and Programming Using Python (supplement with Crash Course Python)(MIT/edX) (135 hours)
