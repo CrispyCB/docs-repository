@@ -47,3 +47,8 @@ Advanced Software Development
     * Supplement with RubyMonk
 4. Work through Agile Development Using Ruby on Rails - The Basics (Berkeley/edX)(60 hours)
 5. Work through Agile Development Using Ruby on Rails - Advanced (Berkeley/edX)(250 hours)
+------------------------
+Advanced Systems Administration
+------------------------
+
+1. Work through Introduction to Cloud Infrastructure Technologies (The Linux Foundation/edX)(30 hours)
