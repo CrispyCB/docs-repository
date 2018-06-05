@@ -36,7 +36,7 @@ Basic Software Development
 Basic Systems Administration
 -----------------------
 
-
+1. Docker Quick Start (Linux Academy)(20 hours)
 -----------------------
 Advanced Software Development
 -----------------------
