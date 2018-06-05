@@ -38,3 +38,4 @@ Advanced Software Development
     * Supplement with RubyMonk
 4. Work through Agile Development Using Ruby on Rails - The Basics (Berkeley/edX)(60 hours)
 5. Work through Agile Development Using Ruby on Rails - Advanced (Berkeley/edX)(250 hours)
+6. Work through M001: MongoDB Basics (3 wks)
