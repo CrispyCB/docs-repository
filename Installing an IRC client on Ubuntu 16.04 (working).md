@@ -1,16 +1,94 @@
-Installing HexChat IRC on Ubuntu Linux 16.04
-Note: This guide assumes that you know what Ubuntu Linux and HexChat IRC are. If you don’t, check out the Ubuntu Overview from Tutorialspoint and the Wikipedia article on IRC.
-Why HexChat?
+#Installing HexChat IRC on Ubuntu Linux 16.04
+
+_Note: This guide assumes that you know what Ubuntu Linux and HexChat IRC are. If you don’t, check out the Ubuntu Overview from Tutorialspoint and the Wikipedia article on IRC._
+
+##Why HexChat?
+
 HexChat is an Internet relay chat (IRC) client. HexChat offers a number of features that other IRC clients may not, including:
-Scripting with Perl, Python and Lua
-Multi-network with auto-connect, join, and identify commands
-Use with Twitch.tv and Tor
-What do I need to install HexChat?
+* Scripting with Perl, Python and Lua
+* Multi-network with auto-connect, join, and identify commands
+* Use with Twitch.tv and Tor
+
+##What do I need to install HexChat?
+
 In order to install HexChat, you need the following:
-A laptop or desktop running Ubuntu 16.04 LTS
-An open web browser (Ubuntu comes bundled native with Firefox)
-Installing HexChat
+* A laptop or desktop running Ubuntu 16.04 LTS
+* An open web browser (Ubuntu comes bundled native with Firefox)
+
+##Installing HexChat
+
 To begin installing HexChat, navigate to https://hexchat.github.io/downloads.html. This will allow you to download HexChat for Windows, OS X and Linux. 
-Method 1: Installing a Snap via Snapcraft
+
+###Method 1: Installing a Snap via Snapcraft
+
 Since we’re installing for Ubuntu Linux, click the Snapcraft link in the center.
-This will open a download window for a Snap file. Snap files are universal packages for Linux – kind of like .exe files for Windows. If the Snapcraft link does not work or errors out, click the Source Archive link to the right of the Snapcraft link and proceed to Method 2.
+
+This will open the Snapcraft page for the HexChat Snap file. Snap files are universal packages for Linux – kind of like .exe files for Windows.
+
+Once the Snapcraft page opens, you have two options. You can either install HexChat through the Desktop Store or via the package manager. We'll cover both methods below.
+
+####1.1: Installing via the Desktop Store
+
+To install via the Ubuntu Desktop Store:
+
+First, click the 'View in Desktop Store' button.
+
+The 'Launch Application' window will appear.
+
+Click 'Open link'.
+
+The Ubuntu Software page for HexChat will open.
+
+Click 'Install'.
+
+If you have a password enabled on your machine, enter it now.
+
+The application will install.
+
+You will then be presented with two options: 'Remove' and 'Launch'. Click 'Launch' to open HexChat.
+
+For information on how to configure HexChat, see the [documentation](https://hexchat.readthedocs.io/en/latest/appearance.html).
+
+####1.2: Installing via the package manager
+
+To install via the package manager:
+
+Open your terminal window.
+
+Type the following command:
+
+    sudo snap install hexchat
+
+HexChat will install.
+
+Run HexChat from the terminal using the 'hexchat' command.
+
+For information on how to configure HexChat, see the [documentation](https://hexchat.readthedocs.io/en/latest/appearance.html).
+
+If the Snapcraft link does not work or errors out, click the Source Archive link to the right of the Snapcraft link and proceed to Method 2.
+
+###Method 2: Compiling HexChat from the Source Archive
+
+To compile HexChat from the source, you'll need a few things first:
+
+* Git
+* The build dependencies for HexChat
+
+To install Git, run the following command from your terminal window:
+
+    sudo apt-install git-all
+
+This will install the Git version control system, where the HexChat source code is stored.
+
+Once Git is installed, run the following command to clone the HexChat source code onto your machine:
+
+    git clone https://github.com/hexchat/hexchat.git
+
+With the source code cloned onto your machine, it's time to get the build dependencies, after which we'll compile HexChat.
+
+To install all of the build dependencies for HexChat, run the following:
+
+    sudo apt-install meson libcanberra-dev libdbus-glib-1-dev libglib2.0-dev libgtk2.0-dev libluajit-5.1-dev libnotify-dev libpci-dev libperl-dev libproxy-dev libssl-dev python3-dev
+
+Once you have all the build dependencies installed, you can follow the official HexChat compilation guide, which can be found [here](http://hexchat.readthedocs.io/en/latest/building.html#unix)
+
