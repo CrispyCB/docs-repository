@@ -92,3 +92,6 @@ To install all of the build dependencies for HexChat, run the following:
 
 Once you have all the build dependencies installed, you can follow the official HexChat compilation guide, which can be found [here](http://hexchat.readthedocs.io/en/latest/building.html#unix)
 
+This will install HexChat, which can be run from the terminal using the command 'hexchat'.
+
+For information on how to configure HexChat, see the [documentation](https://hexchat.readthedocs.io/en/latest/appearance.html).
