@@ -69,7 +69,7 @@ If the Snapcraft link does not work or errors out, click the Source Archive link
 
 ###Method 2: Compiling HexChat from the Source Archive
 
-To compile HexChat from the source, you'll need a few things first:
+In order to compile HexChat from the source, you'll need a few things first:
 
 * Git
 * The build dependencies for HexChat
@@ -90,7 +90,44 @@ To install all of the build dependencies for HexChat, run the following:
 
     sudo apt-install meson libcanberra-dev libdbus-glib-1-dev libglib2.0-dev libgtk2.0-dev libluajit-5.1-dev libnotify-dev libpci-dev libperl-dev libproxy-dev libssl-dev python3-dev
 
-Once you have all the build dependencies installed, you can follow the official HexChat compilation guide, which can be found [here](http://hexchat.readthedocs.io/en/latest/building.html#unix)
+With build dependencies installed, there's one more item we need to install before we can continue -- pip3, the Python 3 package manager.
+
+To install pip3, run the following command:
+
+    sudo apt-get install python3-pip
+
+Installing pip3 allows us to update the meson install above.
+
+With both pip3 and meson installed, run the following:
+
+    pip3 install --upgrade meson
+
+This will upgrade the meson build manager to the newest current version.
+
+Now that everything is installed and upgraded, it's time to compile HexChat from source.
+
+First, change directories into your hexchat directory using the 'cd' command like so:
+
+    cd hexchat
+
+Once inside your hexchat directory, make a build directory for the build files to live in. I named mine 'hexchat-build' and created it using the mkdir command:
+
+    mkdir hexchat-build
+
+With your build directory created, change directories into that directory:
+
+    cd hexchat-build
+
+Once inside your build directory, run the meson build command.
+
+    meson build
+
+Meson will run, and then you can run the second build manager, Ninja, using the following commands:
+
+    ninja -C build
+    sudo ninja -C build install
+
+The first command switches to your build directory, created in the previous step. The second installs the items created by the meson build (residing in your build directory) onto your machine.
 
 This will install HexChat, which can be run from the terminal using the command 'hexchat'.
 
