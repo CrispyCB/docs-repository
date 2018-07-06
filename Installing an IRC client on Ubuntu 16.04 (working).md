@@ -80,25 +80,25 @@ To install Git, run the following command from your terminal window:
 
 This will install the Git version control system, where the HexChat source code is stored.
 
-Once Git is installed, run the following command to clone the HexChat source code onto your machine:
+Once Git is installed, clone the HexChat source code onto your machine.
 
     git clone https://github.com/hexchat/hexchat.git
 
 With the source code cloned onto your machine, it's time to get the build dependencies, after which we'll compile HexChat.
 
-To install all of the build dependencies for HexChat, run the following:
+To install all of the build dependencies for HexChat:
 
     sudo apt-install meson libcanberra-dev libdbus-glib-1-dev libglib2.0-dev libgtk2.0-dev libluajit-5.1-dev libnotify-dev libpci-dev libperl-dev libproxy-dev libssl-dev python3-dev
 
 With build dependencies installed, there's one more item we need to install before we can continue -- pip3, the Python 3 package manager.
 
-To install pip3, run the following command:
+To install pip3:
 
     sudo apt-get install python3-pip
 
 Installing pip3 allows us to update the meson install above.
 
-With both pip3 and meson installed, run the following:
+With both pip3 and meson installed, upgrade meson:
 
     pip3 install --upgrade meson
 
@@ -106,7 +106,7 @@ This will upgrade the meson build manager to the newest current version.
 
 Now that everything is installed and upgraded, it's time to compile HexChat from source.
 
-First, change directories into your hexchat directory using the 'cd' command like so:
+First, change directories into your hexchat directory using the 'cd' command:
 
     cd hexchat
 
@@ -114,15 +114,11 @@ Once inside your hexchat directory, make a build directory for the build files t
 
     mkdir hexchat-build
 
-With your build directory created, change directories into that directory:
-
-    cd hexchat-build
-
-Once inside your build directory, run the meson build command.
+With your build directory created, run the meson build command.
 
     meson build
 
-Meson will run, and then you can run the second build manager, Ninja, using the following commands:
+Meson will run. You can then run the second build manager, Ninja, using the following commands:
 
     ninja -C build
     sudo ninja -C build install
