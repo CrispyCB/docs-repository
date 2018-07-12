@@ -74,11 +74,9 @@ In order to compile HexChat from the source, you'll need a few things first:
 * Git
 * The build dependencies for HexChat
 
-To install Git, run the following command from your terminal window:
+Using your terminal, install Git:
 
     sudo apt-install git-all
-
-This will install the Git version control system, where the HexChat source code is stored.
 
 Once Git is installed, clone the HexChat source code onto your machine.
 
