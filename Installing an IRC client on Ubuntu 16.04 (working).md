@@ -1,25 +1,26 @@
-#Installing HexChat IRC on Ubuntu Linux 16.04
+# Installing HexChat IRC on Ubuntu Linux 16.04
 
 _Note: This guide assumes that you know what Ubuntu Linux and HexChat IRC are. If you don’t, check out the Ubuntu Overview from Tutorialspoint and the Wikipedia article on IRC._
 
-##Why HexChat?
+## Why HexChat?
 
 HexChat is an Internet relay chat (IRC) client. HexChat offers a number of features that other IRC clients may not, including:
 * Scripting with Perl, Python and Lua
 * Multi-network with auto-connect, join, and identify commands
 * Use with Twitch.tv and Tor
 
-##What do I need to install HexChat?
+## What do I need to install HexChat?
 
-In order to install HexChat, you need the following:
+In order to install HexChat, you'll need the following:
+
 * A laptop or desktop running Ubuntu 16.04 LTS
 * An open web browser (Ubuntu comes bundled native with Firefox)
 
-##Installing HexChat
+## Installing HexChat
 
 To begin installing HexChat, navigate to https://hexchat.github.io/downloads.html. This will allow you to download HexChat for Windows, OS X and Linux. 
 
-###Method 1: Installing a Snap via Snapcraft
+### Method 1: Installing a Snap via Snapcraft
 
 Since we’re installing for Ubuntu Linux, click the Snapcraft link in the center.
 
@@ -27,7 +28,7 @@ This will open the Snapcraft page for the HexChat Snap file. Snap files are univ
 
 Once the Snapcraft page opens, you have two options. You can either install HexChat through the Desktop Store or via the package manager. We'll cover both methods below.
 
-####1.1: Installing via the Desktop Store
+#### 1.1: Installing via the Desktop Store
 
 To install via the Ubuntu Desktop Store:
 
@@ -49,7 +50,7 @@ You will then be presented with two options: 'Remove' and 'Launch'. Click 'Launc
 
 For information on how to configure HexChat, see the [documentation](https://hexchat.readthedocs.io/en/latest/appearance.html).
 
-####1.2: Installing via the package manager
+#### 1.2: Installing via the package manager
 
 To install via the package manager:
 
@@ -67,7 +68,7 @@ For information on how to configure HexChat, see the [documentation](https://hex
 
 If the Snapcraft link does not work or errors out, click the Source Archive link to the right of the Snapcraft link and proceed to Method 2.
 
-###Method 2: Compiling HexChat from the Source Archive
+### Method 2: Compiling HexChat from the Source Archive
 
 In order to compile HexChat from the source, you'll need a few things first:
 
