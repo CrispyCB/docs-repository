@@ -5,6 +5,7 @@ _Note: This guide assumes that you know what Ubuntu Linux and HexChat IRC are. I
 ## Why HexChat?
 
 HexChat is an Internet relay chat (IRC) client. HexChat offers a number of features that other IRC clients may not, including:
+
 * Scripting with Perl, Python and Lua
 * Multi-network with auto-connect, join, and identify commands
 * Use with Twitch.tv and Tor
@@ -13,7 +14,7 @@ HexChat is an Internet relay chat (IRC) client. HexChat offers a number of featu
 
 In order to install HexChat, you'll need the following:
 
-* A laptop or desktop running Ubuntu 16.04 LTS
+* A laptop or desktop running Ubuntu 16.04 LTS or later
 * An open web browser (Ubuntu comes bundled native with Firefox)
 
 ## Installing HexChat
