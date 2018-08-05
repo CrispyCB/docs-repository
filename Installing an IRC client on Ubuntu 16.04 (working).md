@@ -1,6 +1,6 @@
 # Installing HexChat IRC on Ubuntu Linux 16.04
 
-_Note: This guide assumes that you know what Ubuntu Linux and HexChat IRC are. If you don’t, check out the Ubuntu Overview from Tutorialspoint and the Wikipedia article on IRC._
+_Note: This guide assumes that you know what Ubuntu Linux and HexChat IRC are. If you don’t, check out the [Ubuntu Overview from Tutorialspoint](https://www.tutorialspoint.com/ubuntu/ubuntu_overview.htm) and the [Wikipedia article on IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat)._
 
 ## Why HexChat?
 
